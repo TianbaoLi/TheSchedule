@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+    <EditText
+        android:id="@+id/editText_AddClassClassName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="课程名称" />
+
+    <EditText
+        android:id="@+id/editText_AddClassFromClassNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="起始节数" />
+
+    <EditText
+        android:id="@+id/editText_AddClassClassNumLen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="持续节数" />
+
+    <EditText
+        android:id="@+id/editText_AddClassWeekDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="星期" />
+
+    <EditText
+        android:id="@+id/editText_AddClassClassRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="教室" />
+
+    <EditText
+        android:id="@+id/editText_AddClassTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="教师" />
+
+    <Button
+        android:id="@+id/AddClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加课程" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">课程表</string>
+    <string name="action_settings">设置</string><string name="action_addclass">添加课程</string><string name="action_register">注册</string><string name="action_login">登陆</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="weekdays">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+
+</resources>
